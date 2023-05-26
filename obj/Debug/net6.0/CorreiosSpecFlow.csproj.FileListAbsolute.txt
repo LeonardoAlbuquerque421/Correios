@@ -13,6 +13,8 @@ C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\testcen
 C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
 C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
 C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\StepDefinitions\CorreiosAction.cs
+C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\StepDefinitions\CorreiosStep.cs
 C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\CorreiosSpecFlow.deps.json
 C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\CorreiosSpecFlow.runtimeconfig.json
 C:\MeusProjetosDotNet\CorreiosSpecFlow\CorreiosSpecFlow\bin\Debug\net6.0\CorreiosSpecFlow.dll

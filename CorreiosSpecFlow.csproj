@@ -21,4 +21,13 @@
     <Folder Include="Support\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="StepDefinitions\CorreiosAction.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="StepDefinitions\CorreiosStep.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
 </Project>

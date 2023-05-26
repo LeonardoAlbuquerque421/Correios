@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj": {}
+    "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj": {}
   },
   "projects": {
-    "C:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj": {
+    "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj",
+        "projectUniqueName": "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj",
         "projectName": "CorreiosSpecFlow",
-        "projectPath": "C:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj",
+        "projectPath": "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\obj\\",
+        "outputPath": "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
