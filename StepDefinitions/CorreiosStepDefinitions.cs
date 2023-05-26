@@ -1,5 +1,4 @@
 using System.Threading;
-using CorreiosSpecFlow.Features.StepDefinitions.CorreiosPageDefinitions;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -10,7 +9,7 @@ using TechTalk.SpecFlow;
 namespace CorreiosSpecFlow.Features.StepDefinitions.CorreiosStepDefinitions
 {
     [Binding]
-    public class CorreiosSteps : CorreiosPage
+    public class CorreiosSteps
     {
         private IWebDriver driver;
 
@@ -32,7 +31,7 @@ namespace CorreiosSpecFlow.Features.StepDefinitions.CorreiosStepDefinitions
         {
             driver.Navigate().GoToUrl("https://www.correios.com.br/");
             Thread.Sleep(2000);
-            driver.FindElement(By.CssSelector("#btnCookie")).Click();
+            driver.FindElement(By.Id("btnCookie")).Click();
             Thread.Sleep(4000);
             driver.FindElement(By.CssSelector("#pausa-card")).Click();
         }
