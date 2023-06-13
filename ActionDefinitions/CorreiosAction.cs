@@ -31,6 +31,7 @@ namespace CorreiosSpecFlow.ActionDefinitions
 
             wait.Until((drv) => driver.FindElement(correiosPage.btnCookie).Displayed);
             driver.FindElement(correiosPage.btnCookie).Click();
+
             wait.Until((drv) => driver.FindElement(correiosPage.btnPausaCard).Displayed);
             driver.FindElement(correiosPage.btnPausaCard).Click();
         }
@@ -38,8 +39,8 @@ namespace CorreiosSpecFlow.ActionDefinitions
         public void setISearchForTheCEP(string cep)
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-
             driver.FindElement(correiosPage.searchCep).SendKeys(cep);
+
             wait.Until((drv) => driver.FindElement(correiosPage.searchCep).Displayed);
             driver.FindElement(correiosPage.btnSearchCep).Click();
         }
@@ -47,8 +48,8 @@ namespace CorreiosSpecFlow.ActionDefinitions
         public void validateIConfirmThatTheCEPDoesNotExist()
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-
             driver.SwitchTo().Window(driver.WindowHandles.Last());
+
             wait.Until((drv) => driver.FindElement(By.CssSelector("h6:nth-child(1)")).Displayed);
             Assert.AreEqual("Dados não encontrado", driver.FindElement(By.CssSelector("h6:nth-child(1)")).Text);
         }
@@ -56,8 +57,8 @@ namespace CorreiosSpecFlow.ActionDefinitions
         public void setISearchForTheTrackingCode(string trackingCode)
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-
             wait.Until((drv) => driver.FindElement(By.CssSelector("#objetos")).Displayed);
+
             driver.FindElement(By.CssSelector("#objetos")).SendKeys(trackingCode);
             driver.FindElement(By.CssSelector("div.card.card-mais-acessados.ordem:nth-child(1) form:nth-child(1) div.campo:nth-child(3) > button.bt-link-ic:nth-child(2)")).Click();
         }
@@ -65,8 +66,8 @@ namespace CorreiosSpecFlow.ActionDefinitions
         public void validateIConfirmThatTheCodeIsNotCorrect()
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-
             driver.SwitchTo().Window(driver.WindowHandles.Last());
+
             wait.Until((drv) => driver.FindElement(By.CssSelector("h3:nth-child(1)")).Displayed);
             Assert.AreEqual("Rastreamento", driver.FindElement(By.CssSelector("h3:nth-child(1)")).Text);
         }
@@ -74,8 +75,8 @@ namespace CorreiosSpecFlow.ActionDefinitions
         public void validateIConfirmThatTheResultIs(string expectedResult)
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-
             driver.SwitchTo().Window(driver.WindowHandles.Last());
+
             wait.Until((drv) => driver.FindElement(By.CssSelector("td:nth-child(1)")).Displayed);
             Assert.AreEqual(expectedResult, driver.FindElement(By.CssSelector("td:nth-child(1)")).Text);
         }
