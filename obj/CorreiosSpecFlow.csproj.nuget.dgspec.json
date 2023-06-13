@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj": {}
+    "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj": {}
   },
   "projects": {
-    "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj": {
+    "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj",
+        "projectUniqueName": "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
         "projectName": "CorreiosSpecFlow",
-        "projectPath": "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\CorreiosSpecFlow.csproj",
+        "projectPath": "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "c:\\MeusProjetosDotNet\\CorreiosSpecFlow\\CorreiosSpecFlow\\obj\\",
+        "outputPath": "C:\\Automacao-SpecFlow\\Correios\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

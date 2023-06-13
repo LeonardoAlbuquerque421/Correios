@@ -22,7 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="StepDefinitions\CorreiosAction.cs">
+    <Compile Update="PageDefinitions\CorreiosPage.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="ActionDefinitions\CorreiosAction.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Update="StepDefinitions\CorreiosStep.cs">

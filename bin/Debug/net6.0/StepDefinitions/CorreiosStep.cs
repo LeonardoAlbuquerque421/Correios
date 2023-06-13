@@ -1,5 +1,5 @@
 using System.Threading;
-using CorreiosSpecFlow.Actions;
+using CorreiosSpecFlow.ActionDefinitions;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;

@@ -5,17 +5,20 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
+using CorreiosSpecFlow.Page;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using TechTalk.SpecFlow.Analytics;
 
-namespace CorreiosSpecFlow.Actions
+namespace CorreiosSpecFlow.ActionDefinitions
 {
     public class CorreiosAction
     {
         private IWebDriver driver;
+
+        CorreiosPage correiosPage = new CorreiosPage();
 
         public CorreiosAction(IWebDriver driver)
         {
@@ -26,19 +29,19 @@ namespace CorreiosSpecFlow.Actions
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
-            wait.Until((drv) => driver.FindElement(By.Id("btnCookie")).Displayed);
-            driver.FindElement(By.Id("btnCookie")).Click();
-            wait.Until((drv) => driver.FindElement(By.CssSelector("#pausa-card")).Displayed);
-            driver.FindElement(By.CssSelector("#pausa-card")).Click();
+            wait.Until((drv) => driver.FindElement(correiosPage.btnCookie).Displayed);
+            driver.FindElement(correiosPage.btnCookie).Click();
+            wait.Until((drv) => driver.FindElement(correiosPage.btnPausaCard).Displayed);
+            driver.FindElement(correiosPage.btnPausaCard).Click();
         }
 
         public void setISearchForTheCEP(string cep)
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
-            driver.FindElement(By.CssSelector("#relaxation")).SendKeys(cep);
-            wait.Until((drv) => driver.FindElement(By.Id("relaxation")).Displayed);
-            driver.FindElement(By.CssSelector("div.card.card-mais-acessados.ordem:nth-child(4) form:nth-child(1) div.campo:nth-child(3) > button.bt-link-ic:nth-child(2)")).Click();
+            driver.FindElement(correiosPage.searchCep).SendKeys(cep);
+            wait.Until((drv) => driver.FindElement(correiosPage.searchCep).Displayed);
+            driver.FindElement(correiosPage.btnSearchCep).Click();
         }
 
         public void validateIConfirmThatTheCEPDoesNotExist()
