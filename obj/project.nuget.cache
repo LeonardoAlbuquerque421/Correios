@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qXVJgVR1ZgEwgmUehL4G/PWY0ar/AJBBaa70mQNd/Bvu3qJiHoHsDw55B3tU3fq/XwcsKZ682Lq1CjmZVHx/Bw==",
+  "dgSpecHash": "nINuw2Jc9mNqOesuAhaHOZUTJWXeCwUIyRFGHzaLTRYdCdlOQPmNd7QgGGeyuoZ1dJE+iWmsFMGlknflKnsddg==",
   "success": true,
-  "projectFilePath": "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
+  "projectFilePath": "c:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\leona\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",

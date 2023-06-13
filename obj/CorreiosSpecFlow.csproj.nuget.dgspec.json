@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj": {}
+    "c:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj": {}
   },
   "projects": {
-    "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj": {
+    "c:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
+        "projectUniqueName": "c:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
         "projectName": "CorreiosSpecFlow",
-        "projectPath": "C:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
+        "projectPath": "c:\\Automacao-SpecFlow\\Correios\\CorreiosSpecFlow.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Automacao-SpecFlow\\Correios\\obj\\",
+        "outputPath": "c:\\Automacao-SpecFlow\\Correios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
