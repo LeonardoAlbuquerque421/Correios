@@ -1,3 +1,4 @@
+using System.Reflection;
 using System.Threading;
 using CorreiosSpecFlow.ActionDefinitions;
 using NUnit.Framework;
@@ -16,7 +17,13 @@ namespace CorreiosSpecFlow.Steps
         [BeforeScenario]
         public void Setup()
         {
-            driver = new ChromeDriver();
+            // Obtém o caminho da pasta do projeto
+            var projetoPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+
+            // Define o caminho completo para o chromedriver
+            var chromedriverPath = Path.Combine(projetoPath, "drivers", "chromedriver.exe");
+
+            driver = new ChromeDriver(chromedriverPath);
             driver.Manage().Window.Maximize();
         }
 
